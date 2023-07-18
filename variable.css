@@ -1,0 +1,17 @@
+
+:root{
+    --black:#000000;
+    --blue:rgb(86, 86, 187);
+    --grey:grey;
+    --width-50: 100px;
+}
+
+div{
+    width: var(--width-50);
+    height: 50px;
+}
+
+.box1, .box5, .box8{
+    background-color: var(--blue);
+}
+
