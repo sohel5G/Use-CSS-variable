@@ -4,5 +4,10 @@
 
 .box{
     border: 1px solid grey;
+    width: 400px;
+    height: 50px;
+}
+.box1{
+    overflow: hidden;
 }
 
