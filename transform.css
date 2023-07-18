@@ -16,10 +16,12 @@
     transform: translateX(30px) */
 
     /* transform: scale(0.7) rotate(45deg) translateX(30px) translateY(30px); */
+
+    transition: transform 3s linear 2s, background-color 1s ease-in 2s;
 }
 .iner:hover{
-    transform: scale(0.7) rotate(45deg) translateX(30px) translateY(30px) skew(10deg);
-    transition: 0.31s;
+    transform: scale(0.5) rotate(45deg) translateX(30px) translateY(30px) skew(10deg);
+    background-color: blueviolet;
 }
 
 
