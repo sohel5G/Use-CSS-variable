@@ -1,0 +1,28 @@
+.container, .iner{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    background-color: aqua;
+    border: 1px solid;
+    margin: 50px;
+}
+.iner{
+    background-color: blanchedalmond;
+    border: 1px solid;
+
+    /* transform: scale(0.5, 0.7);
+    transform: rotate(-50deg);
+    transform: translateX(30px) */
+
+    /* transform: scale(0.7) rotate(45deg) translateX(30px) translateY(30px); */
+}
+.iner:hover{
+    transform: scale(0.7) rotate(45deg) translateX(30px) translateY(30px) skew(10deg);
+    transition: 0.31s;
+}
+
+
+
+
+
