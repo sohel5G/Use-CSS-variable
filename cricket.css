@@ -1,0 +1,21 @@
+.bat{
+    transition: transform 0.1s ease-in;
+}
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+.ball{
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    left: 514px;
+    transition: translate 1s ease-out 0.1s;
+}
+.field:hover .ball{
+    translate: 1000px -600px;
+}
+
+
