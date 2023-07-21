@@ -1,0 +1,53 @@
+
+@keyframes kisu-ekta {
+    from{
+        left: 0;
+    }
+    to{
+        left: 630px;
+        background-color: aqua;
+    }
+}
+@keyframes upre-nise {
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        left: 150px;
+        top: 250px;
+        background-color: blue;
+    }
+    50%{
+        left: 300px;
+        top: 0px;
+        background-color: black;
+    }
+    100%{
+        left: 650px;
+        top: 250px;
+        background-color: aqua;
+    }
+}
+
+.stage{
+    width: 700px;
+    height: 300px;
+    border: 2px solid blue;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    /* animation: kisu-ekta 2s ease-in-out 1s infinite alternate;  */
+    animation: upre-nise 3s ease-in-out 1s infinite alternate;
+}
+
+
+
+ 
+
+
+
